@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="/styles.css">
+        <title>JCADEAUCO</title>
+    </head>
+    <body>
+        <!-- Header Start -->
+        <header>
+            <div class="container">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="/images/Logo.png" alt="" style="height: 150px;">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="signature.html">Signatures</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item order-link">
+                        <a class="nav-link" href="order.html"><span class="order-text">Order Now</span></a>
+                    </li>
+                    </ul>
+                  </div>
+                </nav>
+            </div>
+          </header>
+        <!-- Header Finish -->
+        
+        <!-- Contact Start -->
+      <section class="contact" id="contact">
+        <h1 class="title my-5">Order Now</h1>
+        <hr class="hr-pink mb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 text-left policy-col">
+                    <h5>Please review our policies before ordering</h5>
+                    <br>
+                    <h1 style="height: 50px;"><a href="/images/orderguide.png" class="a-order" target="_blank">Order Guide</a></h1>                 
+                    <h1 style="height: 50px;"><a href="/images/Company Info.png" class="a-order" target="_blank">Company Info</a></h1>
+                    <h1 style="height: 50px;"><a href="/images/Delivery Policy.png" class="a-order" target="_blank">Delivery Policy</a></h1>
+                    <h1 style="height: 50px;"><a href="/images/Pick-Up Policy.png" class="a-order" target="_blank">Pick-Up Policy</a></h1>
+                    <h1 style="height: 50px;"><a href="/images/Payments Policy.png" class="a-order" target="_blank">Payment Policy</a></h1>
+                </div>
+                <div class="col-sm-8 text-left" id="contact2">
+                    <form name="contact" method="POST" data-netlify="true" action="https://formsubmit.co/orders@jcadeauco.com">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" class="form-control" id="text" placeholder="Your name..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone">Phone Number</label>
+                        <input type="telephone" class="form-control" id="telephone" placeholder="Your number..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                    <div class="form-group">
+                        <label for="street">Address (For Delivery Only)</label>
+                        <input type="street" class="form-control" id="street" placeholder="Street & Building Number...">
+                    </div>
+                    <div class="form-group">
+                        <input type="city" class="form-control" id="city" placeholder="City...">
+                    </div>
+                    <div class="form-group">
+                        <input type="State" class="form-control" id="State" placeholder="State...">
+                    </div>
+                    <div class="form-group">
+                        <input type="zip" class="form-control" id="zip" placeholder="Zipcode...">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">What date do you want it by?</label>
+                        <input type="date" class="form-control" id="date" placeholder="Your number..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">What time do you want it by?</label>
+                        <input type="time" class="form-control" id="date" placeholder="Your number..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Product Request</label>
+                        <input type="text" class="form-control" id="text" placeholder="Signature Box or Build Your Own..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Product Details (please be as specific as possible)</label>
+                        <input type="text" class="form-control" id="text" placeholder="Mold type, color, lettering and design" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="text" placeholder="Breakable Mold Filling" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="text" placeholder="Side Add-ons" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Notes/Custom Requests</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your massage..." required></textarea>
+                    </div>
+                    <input type="hidden" name="_subject" value="New Order!">
+                    <button type="submit" class="pushable mb-5 mt-2">
+                        <span class="front">
+                        Send Order
+                        </span>
+                    </button>
+                    </form>
+                </div>
+            </div>
+          </div>
+      </section>
+      <!-- Contact End -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="/script.js"></script>
+    </body>
+</html>
